@@ -1,0 +1,59 @@
+20240824_183239.816 env.init: version=4.6.15.2101
+20240824_183239.839 env.init: jar_url=xowa_dev.jar; build_date=2024-08-24 18:32:23
+20240824_183239.840 env.init: op_sys=mac os x64
+20240824_183239.842 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20240824_183239.859 gui.splash.bgn
+20240824_183239.917 gui.splash.end
+20240824_183239.977 app.ctor.bgn
+20240824_183240.059 app.ctor.end
+20240824_183240.105 app.boot:servers
+20240824_183240.106 app.boot:app.init
+20240824_183240.592 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_183240.681 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/addon/app/cfg/xo.cfg.sqlite3;version=3;
+20240824_183240.710 moving history files
+20240824_183240.711 moved history files: 0
+20240824_183240.721 app.boot:gfs.run
+20240824_183240.740 gfs.done: /Users/zantehays/Documents/xowa/user/anonymous/app/cfg/os.macosx_64.gfs
+20240824_183240.759 gfs.done: /Users/zantehays/Documents/xowa/bin/any/xowa/cfg/app/xowa.gfs
+20240824_183240.759 app.boot:app.launch
+20240824_183240.760 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/lang/
+20240824_183240.761 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/wiki/#cfg/
+20240824_183240.761 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/javascript/
+20240824_183240.761 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/xowa/html/modules/
+20240824_183240.764 wiki.db_core.v2.standard: url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240824_183240.770 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa;version=3;
+20240824_183240.776 fsdb.db_core.v2: type=all url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240824_183240.763 wiki.init.bgn: home
+20240824_183240.873 wiki.init.end
+20240824_183240.877 site_cfg loaded; wiki=home itm=extensiontags tid=itm
+20240824_183240.879 site_cfg loaded; wiki=home itm=interwikimap tid=itm
+20240824_183241.734 run_failed:  [err 0] <org.eclipse.swt.SWTException> Invalid thread access
+[trace]:
+  org.eclipse.swt.SWT.error(SWT.java:4723)
+  org.eclipse.swt.SWT.error(SWT.java:4638)
+  org.eclipse.swt.SWT.error(SWT.java:4609)
+  org.eclipse.swt.widgets.Display.error(Display.java:1103)
+  org.eclipse.swt.widgets.Display.createDisplay(Display.java:851)
+  org.eclipse.swt.widgets.Display.create(Display.java:835)
+  org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+  org.eclipse.swt.widgets.Display.<init>(Display.java:734)
+  org.eclipse.swt.widgets.Display.<init>(Display.java:725)
+  gplx.gfui.kits.core.Swt_kit.Kit_init(Unknown Source)
+  gplx.xowa.guis.Xoa_gui_mgr.Kit_(Unknown Source)
+  gplx.xowa.guis.Xoa_gui_mgr.Run(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run_app(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run(Unknown Source)
+  gplx.xowa.Xoa_app_.Run(Unknown Source)
+  gplx.xowa.Xowa_main.main(Unknown Source)
+20240824_183241.735 app launch failed: [err 0] <java.lang.NullPointerException> Cannot invoke "org.eclipse.swt.widgets.Display.syncExec(java.lang.Runnable)" because "this.display" is null
+[trace]:
+  gplx.gfui.kits.core.Swt_kit.Ask_ok(Unknown Source)
+  gplx.xowa.guis.Xoa_gui_mgr.Run(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run_app(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run(Unknown Source)
+  gplx.xowa.Xoa_app_.Run(Unknown Source)
+  gplx.xowa.Xowa_main.main(Unknown Source)

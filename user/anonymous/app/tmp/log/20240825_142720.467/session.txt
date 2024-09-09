@@ -1,0 +1,275 @@
+20240825_212720.262 env.init: version=4.6.15.2101
+20240825_212720.292 env.init: jar_url=xowa_dev.jar; build_date=2024-08-24 18:40:16
+20240825_212720.293 env.init: op_sys=mac os x64
+20240825_212720.295 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20240825_212720.312 gui.splash.bgn
+20240825_212720.374 gui.splash.end
+20240825_212720.453 app.ctor.bgn
+20240825_212720.566 app.ctor.end
+20240825_212720.628 app.boot:servers
+20240825_212720.628 app.boot:app.init
+20240825_212721.089 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240825_212721.201 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/addon/app/cfg/xo.cfg.sqlite3;version=3;
+20240825_212721.229 moving history files
+20240825_212721.230 moved history files: 0
+20240825_212721.241 app.boot:gfs.run
+20240825_212721.255 gfs.done: /Users/zantehays/Documents/xowa/user/anonymous/app/cfg/os.macosx_64.gfs
+20240825_212721.276 gfs.done: /Users/zantehays/Documents/xowa/bin/any/xowa/cfg/app/xowa.gfs
+20240825_212721.277 app.boot:app.launch
+20240825_212721.278 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/lang/
+20240825_212721.278 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/wiki/#cfg/
+20240825_212721.279 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/javascript/
+20240825_212721.279 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/xowa/html/modules/
+20240825_212721.282 wiki.db_core.v2.standard: url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240825_212721.289 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa;version=3;
+20240825_212721.295 fsdb.db_core.v2: type=all url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240825_212721.281 wiki.init.bgn: home
+20240825_212721.397 wiki.init.end
+20240825_212721.401 site_cfg loaded; wiki=home itm=extensiontags tid=itm
+20240825_212721.403 site_cfg loaded; wiki=home itm=interwikimap tid=itm
+20240825_212722.072 swt.kit.init.done
+20240825_212722.649 page.load: url=home/wiki/Main_Page
+20240825_212722.531 app.gui.kit_init.done
+20240825_212722.595 app.gui.win_load.done
+20240825_212722.595 app.launch.page.bgn
+20240825_212722.649 app.launch.page.end
+20240825_212723.645 page_load: loaded wikitext; page=Main_Page wikitext_len=8491
+20240825_212723.669 jtidy.init; elapsed=18
+20240825_212723.740 page.async: url=home/wiki/Main_Page
+20240825_212723.741 redlink.redlink_bgn: page=Main_Page total_links=39
+20240825_212723.768 redlink.redlink_end: redlinks_run=4
+20240825_212732.111 search.search by page_tbl; search=home/wiki/main_pag
+20240825_212732.114 search.search by link_tbl; search=home/wiki/Main_Pag
+20240825_212732.117 search.resolving; phrase=home/wiki/Main_Pag score_bgn=0 score_end=1000001
+20240825_212732.119 search.detaching; phrase=home/wiki/Main_Pag score_bgn=0 score_end=0
+20240825_212732.333 search.search by page_tbl; search=home/wiki/main_pa
+20240825_212732.334 search.search by link_tbl; search=home/wiki/Main_Pa
+20240825_212732.334 search.resolving; phrase=home/wiki/Main_Pa score_bgn=0 score_end=1000001
+20240825_212732.336 search.detaching; phrase=home/wiki/Main_Pa score_bgn=0 score_end=0
+20240825_212733.254 search.search by page_tbl; search=home/wiki/main_pag
+20240825_212733.255 search.search by link_tbl; search=home/wiki/Main_Pag
+20240825_212733.255 search.resolving; phrase=home/wiki/Main_Pag score_bgn=0 score_end=50000
+20240825_212733.256 search.detaching; phrase=home/wiki/Main_Pag score_bgn=0 score_end=0
+20240825_212733.550 search.search by page_tbl; search=home/wiki/main_page
+20240825_212733.551 search.search by link_tbl; search=home/wiki/Main_Page
+20240825_212733.551 search.resolving; phrase=home/wiki/Main_Page score_bgn=0 score_end=1000001
+20240825_212733.552 search.detaching; phrase=home/wiki/Main_Page score_bgn=0 score_end=0
+20240825_212737.174 page.load: url=home/wiki/Special:XowaSearch?fulltext=y&search=
+20240825_212737.177 cfg:itm not found; key=xowa.addon.fulltext_search.special.offsets
+20240825_212737.184 page_load: loaded wikitext; page=Special:XowaSearch wikitext_len=0
+20240825_212737.208 page.async: url=home/wiki/Special:XowaSearch?fulltext=y&search=
+20240825_212737.208 redlink.redlink_bgn: page=Special:XowaSearch total_links=0
+20240825_212737.208 redlink.redlink_end: redlinks_run=0
+20240825_212741.926 page.load: url=home/wiki/Special:XowaSearch?search=Joe_Biden
+20240825_212741.928 page_load: loaded wikitext; page=Special:XowaSearch wikitext_len=0
+20240825_212741.949 page.async: url=home/wiki/Special:XowaSearch?search=Joe_Biden
+20240825_212741.949 redlink.redlink_bgn: page=Special:XowaSearch total_links=0
+20240825_212741.949 redlink.redlink_end: redlinks_run=0
+20240825_212744.155 page.load: url=home/wiki/Main Page
+20240825_212744.171 page_load: loaded wikitext; page=Main_Page wikitext_len=8491
+20240825_212744.196 page.async: url=home/wiki/Main Page
+20240825_212744.196 redlink.redlink_bgn: page=Main Page total_links=39
+20240825_212744.242 redlink.redlink_end: redlinks_run=4
+20240825_212755.088 page.load: url=home/wiki/Special:AllPages?from=Joe_Biden&namespace=0&hideredirects=0
+20240825_212755.122 page_load: loaded wikitext; page=Special:AllPages wikitext_len=9367
+20240825_212755.139 page.async: url=home/wiki/Special:AllPages?from=Joe_Biden&namespace=0&hideredirects=0
+20240825_212755.140 redlink.redlink_bgn: page=Special:AllPages total_links=0
+20240825_212755.140 redlink.redlink_end: redlinks_run=0
+20240825_212759.676 page.load: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212759.699 page_load: loaded wikitext; page=Special:AllPages wikitext_len=45647
+20240825_212759.710 page.async: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212759.710 redlink.redlink_bgn: page=Special:AllPages total_links=0
+20240825_212759.710 redlink.redlink_end: redlinks_run=0
+20240825_212801.102 page.load: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212801.109 page_load: loaded wikitext; page=Special:AllPages wikitext_len=45647
+20240825_212801.120 page.async: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212801.120 redlink.redlink_bgn: page=Special:AllPages total_links=0
+20240825_212801.120 redlink.redlink_end: redlinks_run=0
+20240825_212801.862 page.load: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212801.869 page_load: loaded wikitext; page=Special:AllPages wikitext_len=45647
+20240825_212801.888 page.async: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212801.888 redlink.redlink_bgn: page=Special:AllPages total_links=0
+20240825_212801.888 redlink.redlink_end: redlinks_run=0
+20240825_212802.386 page.load: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212802.393 page_load: loaded wikitext; page=Special:AllPages wikitext_len=45647
+20240825_212802.403 page.async: url=home/wiki/Special:AllPages?from=Android/Setup&namespace=0&hideredirects=0
+20240825_212802.404 redlink.redlink_bgn: page=Special:AllPages total_links=0
+20240825_212802.404 redlink.redlink_end: redlinks_run=0
+20240825_212806.490 search.search by page_tbl; search=j
+20240825_212806.491 search.search by page_tbl; search=j
+20240825_212806.491 search.search by link_tbl; search=J
+20240825_212806.491 search.resolving; phrase=J score_bgn=0 score_end=1000001
+20240825_212806.497 search.detaching; phrase=J score_bgn=0 score_end=0
+20240825_212806.725 search.search by page_tbl; search=joe
+20240825_212806.726 search.search by link_tbl; search=Joe
+20240825_212806.727 search.resolving; phrase=Joe score_bgn=0 score_end=1000001
+20240825_212806.731 search.detaching; phrase=Joe score_bgn=0 score_end=0
+20240825_212806.813 search.search by page_tbl; search=joe
+20240825_212806.814 search.search by link_tbl; search=Joe
+20240825_212806.814 search.resolving; phrase=Joe score_bgn=0 score_end=50000
+20240825_212806.820 search.detaching; phrase=Joe score_bgn=0 score_end=0
+20240825_212806.916 search.search by page_tbl; search=joe
+20240825_212806.916 search.search by link_tbl; search=Joe 
+20240825_212806.917 search.resolving; phrase=Joe  score_bgn=0 score_end=1000001
+20240825_212806.919 search.detaching; phrase=Joe  score_bgn=0 score_end=0
+20240825_212807.097 search.search by page_tbl; search=joe b
+20240825_212807.098 search.search by link_tbl; search=Joe B
+20240825_212807.099 search.word_count; rng=b*                                                | 10|  0| 974684|1000001| 25317|   0|  0|  0
+
+20240825_212807.100 search.resolving; phrase=Joe B score_bgn=0 score_end=1000001
+20240825_212807.102 search.detaching; phrase=Joe B score_bgn=0 score_end=0
+20240825_212807.126 search.search by page_tbl; search=joe b
+20240825_212807.127 search.search by link_tbl; search=Joe B
+20240825_212807.127 search.resolving; phrase=Joe B score_bgn=0 score_end=50000
+20240825_212807.129 search.detaching; phrase=Joe B score_bgn=0 score_end=0
+20240825_212807.312 search.search by page_tbl; search=joe bi
+20240825_212807.313 search.search by link_tbl; search=Joe Bi
+20240825_212807.314 search.word_count; rng=bi*                                               | 10|  0| 974684|1000001| 25317|   0|  0|  0
+bi*                                               | 10|  1| 924684| 974684| 50000|   0|  0|  0
+bi*                                               | 10|  2| 874684| 924684| 50000|   0|  0|  0
+bi*                                               | 10|  3| 824684| 874684| 50000|   0|  0|  0
+bi*                                               | 10|  4| 774684| 824684| 50000|   0|  0|  0
+bi*                                               | 10|  5| 724684| 774684| 50000|   0|  0|  0
+bi*                                               | 10|  6| 674684| 724684| 50000|   0|  0|  0
+bi*                                               | 10|  7| 624684| 674684| 50000|   0|  0|  0
+bi*                                               | 10|  8| 574684| 624684| 50000|   0|  0|  1
+bi*                                               | 10|  9| 524684| 574684| 50000|   0|  0|  0
+bi*                                               | 10| 10| 474684| 524684| 50000|   0|  0|  0
+bi*                                               | 10| 11| 424684| 474684| 50000|   0|  0|  0
+bi*                                               | 10| 12| 374684| 424684| 50000|   0|  0|  0
+bi*                                               | 10| 13| 324684| 374684| 50000|   0|  0|  0
+bi*                                               | 10| 14| 274684| 324684| 50000|   0|  0|  0
+bi*                                               | 10| 15| 224684| 274684| 50000|   0|  0|  0
+bi*                                               | 10| 16| 174684| 224684| 50000|   0|  0|  0
+bi*                                               | 10| 17| 124684| 174684| 50000|   0|  0|  0
+bi*                                               | 10| 18|  74684| 124684| 50000|   0|  0|  0
+bi*                                               | 10| 19|  24684|  74684| 50000|   0|  0|  0
+
+20240825_212807.315 search.resolving; phrase=Joe Bi score_bgn=0 score_end=1000001
+20240825_212807.316 search.detaching; phrase=Joe Bi score_bgn=0 score_end=0
+20240825_212807.641 search.search by page_tbl; search=joe bie
+20240825_212807.642 search.search by link_tbl; search=Joe Bie
+20240825_212807.643 search.word_count; rng=bie*                                              | 10|  0| 974684|1000001| 25317|   0|  0|  0
+bie*                                              | 10|  1| 924684| 974684| 50000|   0|  0|  0
+bie*                                              | 10|  2| 874684| 924684| 50000|   0|  0|  0
+bie*                                              | 10|  3| 824684| 874684| 50000|   0|  0|  0
+bie*                                              | 10|  4| 774684| 824684| 50000|   0|  0|  1
+bie*                                              | 10|  5| 724684| 774684| 50000|   0|  0|  0
+bie*                                              | 10|  6| 674684| 724684| 50000|   0|  0|  0
+bie*                                              | 10|  7| 624684| 674684| 50000|   0|  0|  0
+bie*                                              | 10|  8| 574684| 624684| 50000|   0|  0|  0
+bie*                                              | 10|  9| 524684| 574684| 50000|   0|  0|  0
+bie*                                              | 10| 10| 474684| 524684| 50000|   0|  0|  0
+bie*                                              | 10| 11| 424684| 474684| 50000|   0|  0|  0
+bie*                                              | 10| 12| 374684| 424684| 50000|   0|  0|  0
+bie*                                              | 10| 13| 324684| 374684| 50000|   0|  0|  0
+bie*                                              | 10| 14| 274684| 324684| 50000|   0|  0|  0
+bie*                                              | 10| 15| 224684| 274684| 50000|   0|  0|  0
+bie*                                              | 10| 16| 174684| 224684| 50000|   0|  0|  0
+bie*                                              | 10| 17| 124684| 174684| 50000|   0|  0|  0
+bie*                                              | 10| 18|  74684| 124684| 50000|   0|  0|  0
+bie*                                              | 10| 19|  24684|  74684| 50000|   0|  0|  0
+
+20240825_212807.644 search.resolving; phrase=Joe Bie score_bgn=0 score_end=1000001
+20240825_212807.645 search.detaching; phrase=Joe Bie score_bgn=0 score_end=0
+20240825_212808.033 search.search by page_tbl; search=joe bi
+20240825_212808.033 search.search by link_tbl; search=Joe Bi
+20240825_212808.034 search.resolving; phrase=Joe Bi score_bgn=0 score_end=50000
+20240825_212808.037 search.detaching; phrase=Joe Bi score_bgn=0 score_end=0
+20240825_212808.109 search.search by page_tbl; search=joe bid
+20240825_212808.109 search.search by link_tbl; search=Joe Bid
+20240825_212808.111 search.word_count; rng=bid*                                              | 10|  0| 974684|1000001| 25317|   0|  0|  0
+bid*                                              | 10|  1| 924684| 974684| 50000|   0|  0|  0
+bid*                                              | 10|  2| 874684| 924684| 50000|   0|  0|  0
+bid*                                              | 10|  3| 824684| 874684| 50000|   0|  0|  0
+bid*                                              | 10|  4| 774684| 824684| 50000|   0|  0|  0
+bid*                                              | 10|  5| 724684| 774684| 50000|   0|  0|  0
+bid*                                              | 10|  6| 674684| 724684| 50000|   0|  0|  0
+bid*                                              | 10|  7| 624684| 674684| 50000|   0|  0|  0
+bid*                                              | 10|  8| 574684| 624684| 50000|   0|  0|  0
+bid*                                              | 10|  9| 524684| 574684| 50000|   0|  0|  0
+bid*                                              | 10| 10| 474684| 524684| 50000|   0|  0|  0
+bid*                                              | 10| 11| 424684| 474684| 50000|   0|  0|  0
+bid*                                              | 10| 12| 374684| 424684| 50000|   0|  0|  0
+bid*                                              | 10| 13| 324684| 374684| 50000|   0|  0|  0
+bid*                                              | 10| 14| 274684| 324684| 50000|   0|  0|  0
+bid*                                              | 10| 15| 224684| 274684| 50000|   0|  0|  1
+bid*                                              | 10| 16| 174684| 224684| 50000|   0|  0|  0
+bid*                                              | 10| 17| 124684| 174684| 50000|   0|  0|  0
+bid*                                              | 10| 18|  74684| 124684| 50000|   0|  0|  0
+bid*                                              | 10| 19|  24684|  74684| 50000|   0|  0|  0
+
+20240825_212808.111 search.resolving; phrase=Joe Bid score_bgn=0 score_end=1000001
+20240825_212808.113 search.detaching; phrase=Joe Bid score_bgn=0 score_end=0
+20240825_212808.282 search.search by page_tbl; search=joe bide
+20240825_212808.282 search.search by link_tbl; search=Joe Bide
+20240825_212808.284 search.word_count; rng=bide*                                             | 10|  0| 974684|1000001| 25317|   0|  0|  0
+bide*                                             | 10|  1| 924684| 974684| 50000|   0|  0|  0
+bide*                                             | 10|  2| 874684| 924684| 50000|   0|  0|  0
+bide*                                             | 10|  3| 824684| 874684| 50000|   0|  0|  0
+bide*                                             | 10|  4| 774684| 824684| 50000|   0|  0|  0
+bide*                                             | 10|  5| 724684| 774684| 50000|   0|  0|  0
+bide*                                             | 10|  6| 674684| 724684| 50000|   0|  0|  0
+bide*                                             | 10|  7| 624684| 674684| 50000|   0|  0|  0
+bide*                                             | 10|  8| 574684| 624684| 50000|   0|  0|  1
+bide*                                             | 10|  9| 524684| 574684| 50000|   0|  0|  0
+bide*                                             | 10| 10| 474684| 524684| 50000|   0|  0|  0
+bide*                                             | 10| 11| 424684| 474684| 50000|   0|  0|  0
+bide*                                             | 10| 12| 374684| 424684| 50000|   0|  0|  0
+bide*                                             | 10| 13| 324684| 374684| 50000|   0|  0|  0
+bide*                                             | 10| 14| 274684| 324684| 50000|   0|  0|  0
+bide*                                             | 10| 15| 224684| 274684| 50000|   0|  0|  0
+bide*                                             | 10| 16| 174684| 224684| 50000|   0|  0|  0
+bide*                                             | 10| 17| 124684| 174684| 50000|   0|  0|  0
+bide*                                             | 10| 18|  74684| 124684| 50000|   0|  0|  0
+bide*                                             | 10| 19|  24684|  74684| 50000|   0|  0|  0
+
+20240825_212808.285 search.resolving; phrase=Joe Bide score_bgn=0 score_end=1000001
+20240825_212808.286 search.detaching; phrase=Joe Bide score_bgn=0 score_end=0
+20240825_212808.366 search.search by page_tbl; search=joe biden
+20240825_212808.367 search.search by link_tbl; search=Joe Biden
+20240825_212808.369 search.word_count; rng=biden*                                            | 10|  0| 974684|1000001| 25317|   0|  0|  0
+biden*                                            | 10|  1| 924684| 974684| 50000|   0|  0|  1
+biden*                                            | 10|  2| 874684| 924684| 50000|   0|  0|  0
+biden*                                            | 10|  3| 824684| 874684| 50000|   0|  0|  0
+biden*                                            | 10|  4| 774684| 824684| 50000|   0|  0|  0
+biden*                                            | 10|  5| 724684| 774684| 50000|   0|  0|  0
+biden*                                            | 10|  6| 674684| 724684| 50000|   0|  0|  0
+biden*                                            | 10|  7| 624684| 674684| 50000|   0|  0|  0
+biden*                                            | 10|  8| 574684| 624684| 50000|   0|  0|  0
+biden*                                            | 10|  9| 524684| 574684| 50000|   0|  0|  0
+biden*                                            | 10| 10| 474684| 524684| 50000|   0|  0|  0
+biden*                                            | 10| 11| 424684| 474684| 50000|   0|  0|  0
+biden*                                            | 10| 12| 374684| 424684| 50000|   0|  0|  0
+biden*                                            | 10| 13| 324684| 374684| 50000|   0|  0|  0
+biden*                                            | 10| 14| 274684| 324684| 50000|   0|  0|  0
+biden*                                            | 10| 15| 224684| 274684| 50000|   0|  0|  0
+biden*                                            | 10| 16| 174684| 224684| 50000|   0|  0|  0
+biden*                                            | 10| 17| 124684| 174684| 50000|   0|  0|  0
+biden*                                            | 10| 18|  74684| 124684| 50000|   0|  0|  0
+biden*                                            | 10| 19|  24684|  74684| 50000|   0|  0|  0
+
+20240825_212808.369 search.resolving; phrase=Joe Biden score_bgn=0 score_end=1000001
+20240825_212808.370 search.detaching; phrase=Joe Biden score_bgn=0 score_end=0
+20240825_212808.595 page.load: url=home/wiki/Special:XowaSearch?search=Joe%2BBiden&fulltext=y
+20240825_212808.597 page_load: loaded wikitext; page=Special:XowaSearch wikitext_len=0
+20240825_212808.612 page.async: url=home/wiki/Special:XowaSearch?search=Joe%2BBiden&fulltext=y
+20240825_212808.612 redlink.redlink_bgn: page=Special:XowaSearch total_links=0
+20240825_212808.612 redlink.redlink_end: redlinks_run=0
+20240825_212811.687 page.load: url=home/wiki/Main Page
+20240825_212811.699 page_load: loaded wikitext; page=Main_Page wikitext_len=8491
+20240825_212811.715 page.async: url=home/wiki/Main Page
+20240825_212811.716 redlink.redlink_bgn: page=Main Page total_links=39
+20240825_212811.760 redlink.redlink_end: redlinks_run=4
+20240825_213213.694 term:bgn
+20240825_213213.703 term:app_term
+20240825_213213.704 app term
+20240825_213213.704 term:log_wtr
+20240825_213213.704 term:log_mgr
+20240825_213213.739 term:wiki_mgr
+20240825_213213.748 swt.kit.term:bgn
+20240825_213213.748 swt.kit.term:cursor

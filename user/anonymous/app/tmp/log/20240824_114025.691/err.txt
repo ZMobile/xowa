@@ -1,0 +1,26 @@
+20240824_184026.773 run_failed:  [err 0] <org.eclipse.swt.SWTException> Invalid thread access
+[trace]:
+  org.eclipse.swt.SWT.error(SWT.java:4723)
+  org.eclipse.swt.SWT.error(SWT.java:4638)
+  org.eclipse.swt.SWT.error(SWT.java:4609)
+  org.eclipse.swt.widgets.Display.error(Display.java:1103)
+  org.eclipse.swt.widgets.Display.createDisplay(Display.java:851)
+  org.eclipse.swt.widgets.Display.create(Display.java:835)
+  org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+  org.eclipse.swt.widgets.Display.<init>(Display.java:734)
+  org.eclipse.swt.widgets.Display.<init>(Display.java:725)
+  gplx.gfui.kits.core.Swt_kit.Kit_init(Unknown Source)
+  gplx.xowa.guis.Xoa_gui_mgr.Kit_(Unknown Source)
+  gplx.xowa.guis.Xoa_gui_mgr.Run(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run_app(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run(Unknown Source)
+  gplx.xowa.Xoa_app_.Run(Unknown Source)
+  gplx.xowa.Xowa_main.main(Unknown Source)
+20240824_184026.775 app launch failed: [err 0] <java.lang.NullPointerException> Cannot invoke "org.eclipse.swt.widgets.Display.syncExec(java.lang.Runnable)" because "this.display" is null
+[trace]:
+  gplx.gfui.kits.core.Swt_kit.Ask_ok(Unknown Source)
+  gplx.xowa.guis.Xoa_gui_mgr.Run(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run_app(Unknown Source)
+  gplx.xowa.apps.boots.Xoa_boot_mgr.Run(Unknown Source)
+  gplx.xowa.Xoa_app_.Run(Unknown Source)
+  gplx.xowa.Xowa_main.main(Unknown Source)

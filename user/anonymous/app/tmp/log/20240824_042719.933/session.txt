@@ -1,0 +1,72 @@
+20240824_112719.766 env.init: version=4.6.15.2101
+20240824_112719.787 env.init: jar_url=xowa_dev.jar; build_date=2024-08-24 11:24:27
+20240824_112719.788 env.init: op_sys=mac os x64
+20240824_112719.790 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20240824_112719.806 gui.splash.bgn
+20240824_112719.862 gui.splash.end
+20240824_112719.920 app.ctor.bgn
+20240824_112720.012 app.ctor.end
+20240824_112720.059 app.boot:servers
+20240824_112720.059 app.boot:app.init
+20240824_112720.060 creating user_system_cfg.gfs: /Users/zantehays/Documents/xowa/user/anonymous/app/data/cfg/user_system_cfg.gfs
+20240824_112720.509 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.512 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.514 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.515 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.519 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.521 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.522 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.524 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.526 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.526 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.598 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/addon/app/cfg/xo.cfg.sqlite3;version=3;
+20240824_112720.599 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.601 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.601 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.629 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.629 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.630 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_112720.631 moving history files
+20240824_112720.631 moved history files: 0
+20240824_112720.641 app.boot:gfs.run
+20240824_112720.659 gfs.done: /Users/zantehays/Documents/xowa/user/anonymous/app/cfg/os.macosx_64.gfs
+20240824_112720.678 gfs.done: /Users/zantehays/Documents/xowa/bin/any/xowa/cfg/app/xowa.gfs
+20240824_112720.678 app.boot:app.launch
+20240824_112720.679 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/lang/
+20240824_112720.679 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/wiki/#cfg/
+20240824_112720.680 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/javascript/
+20240824_112720.680 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/xowa/html/modules/
+20240824_112720.703 wiki.db_core.v2.standard: url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240824_112720.709 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa;version=3;
+20240824_112720.713 fsdb.db_core.v2: type=all url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240824_112720.701 wiki.init.bgn: home
+20240824_112720.796 wiki.init.end
+20240824_112720.800 site_cfg loaded; wiki=home itm=extensiontags tid=itm
+20240824_112720.802 site_cfg loaded; wiki=home itm=interwikimap tid=itm
+20240824_112720.879 OS: mac os x
+Java: 22.0.2 (64 bit)
+Java path: 22.0.2
+XOWA: 4.6.15.2101
+XOWA path: /Users/zantehays/Documents/xowa/xowa_dev.jar
+
+Error: java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+	no swt-win32-4934r6 in java.library.path: /Users/zantehays/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	no swt-win32 in java.library.path: /Users/zantehays/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	Can't load library: /Users/zantehays/.swt/lib/macosx/x86_64/libswt-win32-4934r6.jnilib
+	Can't load library: /Users/zantehays/.swt/lib/macosx/x86_64/libswt-win32.jnilib
+
+Stack: org.eclipse.swt.internal.Library.loadLibrary(Library.java:342)
+org.eclipse.swt.internal.Library.loadLibrary(Library.java:256)
+org.eclipse.swt.internal.C.<clinit>(C.java:19)
+org.eclipse.swt.widgets.Display.<clinit>(Display.java:145)
+gplx.gfui.kits.core.Swt_kit.Kit_init(Unknown Source)
+gplx.xowa.guis.Xoa_gui_mgr.Kit_(Unknown Source)
+gplx.xowa.guis.Xoa_gui_mgr.Run(Unknown Source)
+gplx.xowa.apps.boots.Xoa_boot_mgr.Run_app(Unknown Source)
+gplx.xowa.apps.boots.Xoa_boot_mgr.Run(Unknown Source)
+gplx.xowa.Xoa_app_.Run(Unknown Source)
+gplx.xowa.Xowa_main.main(Unknown Source)

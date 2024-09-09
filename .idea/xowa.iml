@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/100_core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/110_gfml/src_100_tkn" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/110_gfml/src_200_type" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/110_gfml/src_300_gdoc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/110_gfml/src_400_pragma" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/110_gfml/src_500_build" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/110_gfml/src_600_rdrWtr" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/140_dbs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/150_gfui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/400_xowa/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/401_xowa_updater/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/baselib/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/gplx.gflucene/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/bin/any/java/apache/commons-compress-1.18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/bin/macosx_64/swt/swt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

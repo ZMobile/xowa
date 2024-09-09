@@ -1,0 +1,44 @@
+20240824_184455.981 env.init: version=4.6.15.2101
+20240824_184456.004 env.init: jar_url=xowa_dev.jar; build_date=2024-08-24 18:40:16
+20240824_184456.004 env.init: op_sys=mac os x64
+20240824_184456.007 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20240824_184456.024 gui.splash.bgn
+20240824_184456.052 gui.splash.end
+20240824_184456.108 app.ctor.bgn
+20240824_184456.190 app.ctor.end
+20240824_184456.237 app.boot:servers
+20240824_184456.238 app.boot:app.init
+20240824_184456.720 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240824_184456.803 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/addon/app/cfg/xo.cfg.sqlite3;version=3;
+20240824_184456.830 moving history files
+20240824_184456.831 moved history files: 0
+20240824_184456.842 app.boot:gfs.run
+20240824_184456.856 gfs.done: /Users/zantehays/Documents/xowa/user/anonymous/app/cfg/os.macosx_64.gfs
+20240824_184456.876 gfs.done: /Users/zantehays/Documents/xowa/bin/any/xowa/cfg/app/xowa.gfs
+20240824_184456.877 app.boot:app.launch
+20240824_184456.878 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/lang/
+20240824_184456.878 setup:checking if dir exists: version_prv= version_del=1.8.2.1 dir=/Users/zantehays/Documents/xowa/user/anonymous/wiki/#cfg/
+20240824_184456.878 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/javascript/
+20240824_184456.879 setup:checking if dir exists: version_prv= version_del=1.10.2.1 dir=/Users/zantehays/Documents/xowa/bin/any/xowa/html/modules/
+20240824_184456.881 wiki.db_core.v2.standard: url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240824_184456.886 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa;version=3;
+20240824_184456.891 fsdb.db_core.v2: type=all url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240824_184456.880 wiki.init.bgn: home
+20240824_184456.988 wiki.init.end
+20240824_184456.991 site_cfg loaded; wiki=home itm=extensiontags tid=itm
+20240824_184456.993 site_cfg loaded; wiki=home itm=interwikimap tid=itm
+20240824_184457.640 swt.kit.init.done
+20240824_184458.599 page.load: url=home/wiki/Main_Page
+20240824_184458.088 app.gui.kit_init.done
+20240824_184458.153 app.gui.win_load.done
+20240824_184458.154 app.launch.page.bgn
+20240824_184458.599 app.launch.page.end
+20240824_184459.568 page_load: loaded wikitext; page=Main_Page wikitext_len=8491
+20240824_184459.621 jtidy.init; elapsed=26
+20240824_184459.702 page.async: url=home/wiki/Main_Page
+20240824_184459.704 redlink.redlink_bgn: page=Main_Page total_links=39
+20240824_184500.135 redlink.redlink_end: redlinks_run=4
