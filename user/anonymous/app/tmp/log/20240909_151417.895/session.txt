@@ -1,0 +1,46 @@
+20240909_221417.286 env.init: version=4.6.15.2101
+20240909_221417.318 env.init: jar_url=xowa_dev.jar; build_date=2024-08-24 18:40:16
+20240909_221417.319 env.init: op_sys=mac os x64
+20240909_221417.321 
+arguments:
+  **** NONE ****
+  use --help to show help
+
+20240909_221417.341 gui.splash.bgn
+20240909_221417.791 gui.splash.end
+20240909_221417.875 app.ctor.bgn
+20240909_221417.980 app.ctor.end
+20240909_221418.039 app.boot:servers
+20240909_221418.040 app.boot:app.init
+20240909_221418.578 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/user/xowa.user.anonymous.sqlite3;version=3;
+20240909_221418.691 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/addon/app/cfg/xo.cfg.sqlite3;version=3;
+20240909_221418.730 app.boot:gfs.run
+20240909_221418.747 gfs.done: /Users/zantehays/Documents/xowa/user/anonymous/app/cfg/os.macosx_64.gfs
+20240909_221418.768 gfs.done: /Users/zantehays/Documents/xowa/bin/any/xowa/cfg/app/xowa.gfs
+20240909_221418.769 app.boot:app.launch
+20240909_221418.773 wiki.db_core.v2.standard: url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240909_221418.781 db.schema.load.bgn: conn=data source=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa;version=3;
+20240909_221418.789 fsdb.db_core.v2: type=all url=/Users/zantehays/Documents/xowa/bin/any/xowa/wiki/home/home.xowa
+20240909_221418.771 wiki.init.bgn: home
+20240909_221418.903 wiki.init.end
+20240909_221418.907 site_cfg loaded; wiki=home itm=extensiontags tid=itm
+20240909_221418.908 site_cfg loaded; wiki=home itm=interwikimap tid=itm
+20240909_221419.854 swt.kit.init.done
+20240909_221420.890 page.load: url=home/wiki/Main_Page
+20240909_221420.701 app.gui.kit_init.done
+20240909_221420.776 app.gui.win_load.done
+20240909_221420.777 app.launch.page.bgn
+20240909_221420.890 app.launch.page.end
+20240909_221422.077 page_load: loaded wikitext; page=Main_Page wikitext_len=8491
+20240909_221422.116 jtidy.init; elapsed=22
+20240909_221422.197 page.async: url=home/wiki/Main_Page
+20240909_221422.198 redlink.redlink_bgn: page=Main_Page total_links=39
+20240909_221422.246 redlink.redlink_end: redlinks_run=4
+20240909_221424.018 term:bgn
+20240909_221424.027 term:app_term
+20240909_221424.027 app term
+20240909_221424.028 term:log_wtr
+20240909_221424.028 term:log_mgr
+20240909_221424.064 term:wiki_mgr
+20240909_221424.093 swt.kit.term:bgn
+20240909_221424.093 swt.kit.term:cursor
